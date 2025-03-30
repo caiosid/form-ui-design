@@ -61,3 +61,72 @@ textarea{
     position: relative;
     top:  -62px
 }
+
+/* form header */
+.form__header{
+    border-bottom: 1px solid #DFDFDF;
+    height: 45px;
+}
+
+.form__header > p{
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/*form body */
+.form__body{
+    padding: 30px;
+}
+
+.form__title > p{
+    margin-bottom: 20px;
+}
+
+.requerid__field{
+    color: #d80835;
+}
+
+.box__input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional__box{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.opcional__list{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box__input > p{
+    margin-bottom: 15px;
+}
+
+.btn__submit{
+    background-color: #673ab7;
+    color: #FFF;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn__submit:hover{
+    background-color: #fff;
+    border-color: #673ab7;
+    color: #673ab7;
+}
